@@ -1,8 +1,8 @@
 {
-  "name": "ag-grid-task",
-  "homepage": "https://mugishbeldar.github.io/aggridtask",
+  "name": "aggridtask",
+  "homepage": "https://MugishBeldar.github.io/aggridtask",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "ag-grid-community": "^32.3.3",
     "ag-grid-react": "^32.3.3",
@@ -41,6 +41,7 @@
   "devDependencies": {
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "gh-pages": "^6.3.0",
     "typescript": "^4.9.5"
   }
 }
