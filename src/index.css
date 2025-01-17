@@ -1,0 +1,14 @@
+/* Universal Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+:root {
+  --primary-violet: #7482FF;
+  --primary-white: #fff;
+  --primary-blue: #3963EC;
+}
+
+
