@@ -50,7 +50,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const fetchedData = localStorage.getItem('data');
-    if (JSON.parse(fetchedData).length > 1) {
+    if (JSON.parse(fetchedData) && JSON.parse(fetchedData).length > 1) {
       setRowData(JSON.parse(fetchedData));
     } else {
       localStorage.setItem('data', JSON.stringify(data));
@@ -70,7 +70,7 @@ const Dashboard = () => {
             <Search setRowData={setRowData} rowData={rowData} />
           </div>
           <div className="setting">
-            <Setting onColumnVisibilityChange={onColumnVisibilityChange} columnVisibility={columnVisibility}/>
+            <Setting onColumnVisibilityChange={onColumnVisibilityChange} columnVisibility={columnVisibility} />
           </div>
         </div>
         <div className='dashboard-btn'>
